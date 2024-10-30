@@ -1,0 +1,61 @@
+
+#bv_gr-customIcon-to-choose {
+max-width: 300px;
+max-height: 200px;
+overflow-y: scroll;
+}
+#bv_gr-customIcon-to-choose, #bv_gr-chosenIconDisp {
+font-family: FontAwesome;
+}
+ #bv_gr-chosenIconDisp {
+	max-width: 200px;
+    background: #FFF;
+    border: 1px solid grey;
+    padding: 6px 4px 6px 8px;
+    margin-bottom: 12px;
+}
+#bv_gr-chosenIconDisp i:before {
+font-style: normal;
+font-size: 18px;
+}
+.bv_gr-icon-chosen {
+padding: 2px 4px 2px 4px;
+}
+.bv_gr-icon-chosen:before {
+font-style: normal;
+cursor: pointer;
+font-size: 18px;
+}
+.bv_gr-if-no-icon {
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.bv_gr-form-table-st {
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.bv_gr-form-table-st th {
+text-align: center;
+background: lightblue;
+}
+.bv_gr-form-table-st td {
+text-align: center;
+}
+#bv_gr-g1Image, #bv_gr-g2Image {
+display: none;
+}
+.bv_gr-cls-both {
+clear: both;
+}
+#bv_gr-piechart1, #bv_gr-piechart3, #bv_gr-piechart4 {
+width: 400px;
+height: 300px;
+float: left;    
+}
+#bv_gr-piechart2 {
+width: 400px;
+height: 300px;
+float: right;    
+}
+#bv_gr-tp-portion-cv-pl, #bv_gr-toShowNew {
+max-width: 900px;
+}
